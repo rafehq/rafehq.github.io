@@ -3381,7 +3381,7 @@
 
     // allow null options
     options = options || {};
-    this.displayMode = _utils2.default.deflt(options.displayMode, false);
+    this.displayMode = false;
     this.throwOnError = _utils2.default.deflt(options.throwOnError, true);
     this.errorColor = _utils2.default.deflt(options.errorColor, "#cc0000");
     this.macros = options.macros || {};
